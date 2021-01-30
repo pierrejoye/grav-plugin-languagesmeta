@@ -1,6 +1,8 @@
 # grav-plugin-languages-meta
 Little plugin to generate alternate links for a page
 
-## requires https://github.com/getgrav/grav/pull/3184 to function (possible bug in translatedPages())
+## requirements
+
+https://github.com/getgrav/grav/pull/3184 to function (possible bug in translatedPages())
 
 Install as usual.
