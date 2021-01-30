@@ -31,6 +31,9 @@ class HeaderLinkRelate extends \Twig_Extension
         $translatedPages = $page->translatedLanguages(true);
         $alternates = '';
         foreach ($translatedPages as $language => $route) {
+            if ($language == $page->language()) {
+                continue;
+            }
             $alternates .=  '<link rel="alternate" href="/' . $language . $route . ( $defaultLanguage == $language ?  '" hreflang="x-default"':'"') . '/>' . PHP_EOL;
         }
         return $alternates;
