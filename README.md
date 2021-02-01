@@ -1,30 +1,30 @@
-# Seoonpage Plugin
+# Languages Meta Plugin
 
 **This README.md file should be modified to describe the features, installation, configuration, and general usage of the plugin.**
 
-The **Seoonpage** Plugin is an extension for [Grav CMS](http://github.com/getgrav/grav). Add sitemap, alternate to pages based on actual translation. Only add those which actually exist
+The **LanguagesMeta** Plugin is an extension for [Grav CMS](http://github.com/getgrav/grav). Add sitemap, alternate to pages based on actual translation. Only add those which actually exist
 
 ## Installation
 
-Installing the Seoonpage plugin can be done in one of three ways: The GPM (Grav Package Manager) installation method lets you quickly install the plugin with a simple terminal command, the manual method lets you do so via a zip file, and the admin method lets you do so via the Admin Plugin.
+Installing the LanguagesMeta plugin can be done in one of three ways: The GPM (Grav Package Manager) installation method lets you quickly install the plugin with a simple terminal command, the manual method lets you do so via a zip file, and the admin method lets you do so via the Admin Plugin.
 
 ### GPM Installation (Preferred)
 
 To install the plugin via the [GPM](http://learn.getgrav.org/advanced/grav-gpm), through your system's terminal (also called the command line), navigate to the root of your Grav-installation, and enter:
 
-    bin/gpm install seoonpage
+    bin/gpm install languagesmeta
 
-This will install the Seoonpage plugin into your `/user/plugins`-directory within Grav. Its files can be found under `/your/site/grav/user/plugins/seoonpage`.
+This will install the LanguagesMeta plugin into your `/user/plugins`-directory within Grav. Its files can be found under `/your/site/grav/user/plugins/languagesmeta`.
 
 ### Manual Installation
 
-To install the plugin manually, download the zip-version of this repository and unzip it under `/your/site/grav/user/plugins`. Then rename the folder to `seoonpage`. You can find these files on [GitHub](https://github.com//grav-plugin-seoonpage) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
+To install the plugin manually, download the zip-version of this repository and unzip it under `/your/site/grav/user/plugins`. Then rename the folder to `languagesmeta`. You can find these files on [GitHub](https://github.com//grav-plugin-languagesmeta) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
 
 You should now have all the plugin files under
 
-    /your/site/grav/user/plugins/seoonpage
+    /your/site/grav/user/plugins/languagesmeta
 	
-> NOTE: This plugin is a modular component for Grav which may require other plugins to operate, please see its [blueprints.yaml-file on GitHub](https://github.com//grav-plugin-seoonpage/blob/master/blueprints.yaml).
+> NOTE: This plugin is a modular component for Grav which may require other plugins to operate, please see its [blueprints.yaml-file on GitHub](https://github.com//grav-plugin-languagesmeta/blob/master/blueprints.yaml).
 
 ### Admin Plugin
 
@@ -32,7 +32,7 @@ If you use the Admin Plugin, you can install the plugin directly by browsing the
 
 ## Configuration
 
-Before configuring this plugin, you should copy the `user/plugins/seoonpage/seoonpage.yaml` to `user/config/plugins/seoonpage.yaml` and only edit that copy.
+Before configuring this plugin, you should copy the `user/plugins/languagesmeta/languagesmeta.yaml` to `user/config/plugins/languagesmeta.yaml` and only edit that copy.
 
 Here is the default configuration and an explanation of available options:
 
@@ -40,7 +40,7 @@ Here is the default configuration and an explanation of available options:
 enabled: true
 ```
 
-Note that if you use the Admin Plugin, a file with your configuration named seoonpage.yaml will be saved in the `user/config/plugins/`-folder once the configuration is saved in the Admin.
+Note that if you use the Admin Plugin, a file with your configuration named languagesmeta.yaml will be saved in the `user/config/plugins/`-folder once the configuration is saved in the Admin.
 
 ## Usage
 
